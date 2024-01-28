@@ -1,0 +1,23 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .movie-item {
+    flex: 1 0 24%;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .mark-as-watched-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 8px 8px;
+  }  
